@@ -94,6 +94,9 @@ let opChart = new Chart(op, {
         }]
     },
     options: {
+        legend: {
+            position: "bottom",
+        },
         scales: {
             y: {
                 display: false,
@@ -103,16 +106,6 @@ let opChart = new Chart(op, {
                 display: false,
             }
         },
-        options: {
-            plugins: {
-                legend: {
-                    display: false,
-                    position:'bottom',
-                    labels: {
-                        color: 'rgb(255, 99, 132)'
-                    }
-                }
-            }
-        }
+
     }
 });
