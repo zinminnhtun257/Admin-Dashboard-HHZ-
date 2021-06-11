@@ -56,6 +56,13 @@
     height: 200px;
 
 }
+.sub-list tr {
+    transition: .3s;
+    cursor: pointer;
+}
+.sub-list tr:active{
+    transform: scale(1.02);
+}
 @media screen and (max-width:780px){
     .sidebar{
         position: fixed;
