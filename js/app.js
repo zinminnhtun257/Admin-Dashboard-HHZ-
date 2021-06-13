@@ -17,7 +17,9 @@ $(".full-screen-btn").click(function () {
 });
 
 $(document).ready(function() {
-    $('#list').DataTable();
+    $('#list').DataTable({
+        responsive:true
+    });
 } );
 
 
