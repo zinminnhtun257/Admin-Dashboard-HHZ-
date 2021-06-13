@@ -13,8 +13,15 @@ function go(url){
 };
 
 $(".full-screen-btn").click(function () {
-    $(this).closest(".card").toggleClass("full-screen-card").find(".a").toggleClass("feather-maximize-2").toggleClass("feather-minimize-2");;
-})
+    $(this).closest(".card").toggleClass("full-screen-card").find(".a").toggleClass("feather-maximize-2").toggleClass("feather-minimize-2");
+});
+
+$(document).ready(function() {
+    $('#list').DataTable();
+} );
+
+
+
 
 
 
